@@ -85,10 +85,6 @@ aside {
      text-align: center;
      padding-bottom: 3%;
   }
-
-  .flex-row {
-    display: flex;
-  }
   
   .projects {
     width: 100%;
@@ -99,7 +95,7 @@ aside {
   }
   
   .project {
-    flex: 1;
+    flex: 0 100%;
     margin: 20 px;
     background:#094403;
     color: #ffffff;
@@ -217,10 +213,6 @@ aside {
 
   .flex-row p {
     width: 100%;
-  }
-
-  .project {
-    flex: 0 100%;
   }
 
   .contact-info {
